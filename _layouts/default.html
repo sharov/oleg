@@ -18,10 +18,18 @@
 <header class="page-header" role="banner">
     <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
     <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-    <a href="https://twitter.com/sharov" target="_blank"><img src="/images/twitter.png" class="inline"></a>
-    <a href="https://www.facebook.com/o.sharov" target="_blank"><img src="/images/fb.png" class="inline"></a>
-    <a href="https://linkedin.com/in/olegsharov" target="_blank"><img src="/images/linkedin.png" class="inline"></a>
-    <a href="https://github.com/sharov" target="_blank"><img src="/images/github.png" class="inline"></a>
+    <a href="https://twitter.com/sharov" target="_blank">
+        <img src="{{ '/images/twitter.png' | relative_url }}" class="inline">
+    </a>
+    <a href="https://www.facebook.com/o.sharov" target="_blank">
+        <img src="{{ '/images/fb.png' | relative_url }}" class="inline">
+    </a>
+    <a href="https://linkedin.com/in/olegsharov" target="_blank">
+        <img src="{{ '/images/linkedin.png' | relative_url }}" class="inline">
+    </a>
+    <a href="https://github.com/sharov" target="_blank">
+        <img src="{{ '/images/github.png' | relative_url }}" class="inline">
+    </a>
 </header>
 
 <main id="content" class="main-content" role="main">
